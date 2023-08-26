@@ -67,3 +67,32 @@ h3 {
 .email-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+    
+    .homepage-image {
+        display: none;
+    }
+    
+    .app-link {
+        display: block;
+        text-align: center;
+    }
+
+    .about-page-image {
+        margin-bottom: 30px;
+    }
+    
+}
